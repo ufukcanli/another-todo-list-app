@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Another Todo App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="container mt-4">
+
+    <div class="jumbotron mb-3 pb-2 pt-3">
+      <h1 class="display-4">Todo App</h1>
+      <p class="lead">This is a simple todo list application that uses localStorage to store data permanently.</p>
+      <hr class="my-4">
+      <p>Click the button below to delete the list from localStorage.</p>
+      <a class="btn btn-primary btn-md" id="destroy" href="#">Destroy</a>
+      <hr class="my-4">
+      <p style="position: relative; font-size: 13px;">Made with ❤️ by <a href="http://ufukcanli.com" target="blank">Ufuk
+          Canlı</a></p>
+    </div>
+
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Type your task here...">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Add</button>
+      </div>
+    </div>
+
+    <ul class="list-group mb-4">
+      <!--This the place for todos-->
+    </ul>
+
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
